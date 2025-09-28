@@ -1,5 +1,5 @@
 import { Layout } from './Layout'
-import { Suspense } from 'react'
+import { GitHub } from './GitHub'
 import { StreamContent } from './StreamContent'
 
 async function* generateText() {
@@ -15,9 +15,7 @@ export function Home() {
   const stream = generateText()
   return (
     <Layout title="rwsdk-jsx-stream">
-      <a href="https://github.com/jldec/rwsdk-jsx-stream" className="text-blue-500 hover:underline mb-4 block">
-        GitHub
-      </a>
+      <GitHub />
       <StreamContent stream={stream} />
     </Layout>
   )
