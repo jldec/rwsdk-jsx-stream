@@ -18,9 +18,7 @@ export function Home() {
       <a href="https://github.com/jldec/rwsdk-jsx-stream" className="text-blue-500 hover:underline mb-4 block">
         GitHub
       </a>
-      <Suspense fallback={<div>Loading...</div>}>
-        <StreamContent stream={stream} />
-      </Suspense>
+      <StreamContent stream={stream} />
     </Layout>
   )
 }
