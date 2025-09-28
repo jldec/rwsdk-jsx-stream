@@ -1,5 +1,9 @@
 # rwsdk-jsx-stream
-This is a [RedwoodSDK](https://docs.rwsdk.com/) project bootstrapped with [`jldec/rwsdk-minimal-starter`](https://github.com/jldec/rwsdk-minimal-starter). For the Next.js version, see [nextjs-jsx-stream](https://github.com/jldec/next-jsx-stream).
+React Server Components (RSC) can generate streams of JSX components. This extends the more common pattern of one HTTP request returning a single server-rendered component.
+
+For the Next.js version, see [nextjs-jsx-stream](https://github.com/jldec/next-jsx-stream).
+
+This is a [RedwoodSDK](https://docs.rwsdk.com/) project bootstrapped with [`jldec/rwsdk-minimal-starter`](https://github.com/jldec/rwsdk-minimal-starter).
 
 ### Deployed
 https://rwsdk-jsx-stream.jldec.workers.dev/

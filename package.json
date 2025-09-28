@@ -15,6 +15,7 @@
     "tail": "wrangler tail"
   },
   "dependencies": {
+    "nanoid": "^5.1.6",
     "react": "19.2.0-canary-3fb190f7-20250908",
     "react-dom": "19.2.0-canary-3fb190f7-20250908",
     "react-server-dom-webpack": "19.2.0-canary-3fb190f7-20250908",
